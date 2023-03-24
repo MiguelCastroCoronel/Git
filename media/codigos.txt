@@ -1,0 +1,8 @@
+archivo txt en notepad
+
+Código  	 Descripción
+************    **********************************
+001		Perfumería
+002		Limpeza
+003		Pañales
+004		juguetes

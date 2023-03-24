@@ -1,0 +1,19 @@
+
+body{
+    color: rgb(139, 139, 100);
+}
+
+p{
+    color: antiquewhite;
+}
+
+h6 {
+    text-align: center;
+    color: blueviolet;
+    background-color: rgb(206, 183, 228) ;
+    
+}
+
+footer{
+    color-scheme: blue;
+}
