@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Pedidos</title>
     <link rel="stylesheet" href="/css/estilos.css">
     <link rel="shortcut icon" href="media/pupylogo_ico.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,15 +25,14 @@
     <main>    
         <br>
         <br>
-        <h1><mark>Dejanos un mensaje</mark></h1>
+        <h1>Tomamos tu pedido</h1>
         <!-- ver como hacer para notificaciones, puede mandar un mail -->
 
         <form action="show-data.html">
             <fieldset>
                 <legend>Completar:</legend>
                 <br>
-                <label for="contador">Nº de Orden</label>
-                <input type="number" name="contador" id="contador" value="25">
+                
                 <label for="fecha">Fecha</label>
                 <input type="date" name="fecha" id="fecha"><br>
                 <br>
@@ -45,17 +44,20 @@
                 <input type="number" name="num_contacto" id="num_contacto"><br>
                 <label for="mail">Mail</label>
                 <input type="text" name="mail" id="mail" size="65" placeholder=".....@.com.ar"><br>
-                <p> Asunto: (checkbox)
-                   <input type="checkbox" name="asunto" value="pañal"> Pañales
-                   <input type="checkbox" name="asunto" value="perfumeria">Perfumeria
-                   <input type="checkbox" name="asunto" value="tocador">Tocador
-                   <input type="checkbox" name="asunto" value="ropa">Ropita de bebé
-                   <input type="checkbox" name="asunto" value="juguetes">Juguetes de madera
-                   <input type="checkbox" name="asunto" value="bazar">Bazar
                 </p>
-                <p>Comentarios:</p>
+                <label for="pago">Forma de pago:</label>
+                <select id="pago" name="pago">
+                    <option value="efectivo">Efectivo</option>
+                    <option value="debito">Débito</option>
+                    <option value="credito">Crédito</option>
+                    <option value="transferencia">Transferencia</option>
+                    <option value="mercado_pago">Mercado Pago</option>
+
+                </select>
+
+                <p class="normalita">Detalle:</p>
                 <label for="comentarios"></label>
-                <textarea name="comentarios" rows="5" cols="50" placeholder="Hola, me gustaría..."></textarea>
+                <textarea name="comentarios" rows="5" cols="100" placeholder="Hola, me gustaría..."></textarea>
                 <br>
                 <br>
                 <input type="submit" value="Enviar"> <!-- envia al action -->
@@ -67,46 +69,6 @@
         <br>
         <br>
 
-        <h1><mark>Quiero Registrarme</mark></h1>
-        <img src="/media/Novedades.jpg" alt="carteldenovedades" width="500" height="120">
-        <h4>Recibirás periodicamente listas de precios, ofertas y novedades.</h4>
-        
-        <!-- ver como hacer para notificaciones, puede mandar un mail -->
-
-        <form action="./show-data.html">
-            <fieldset>
-                <legend>Completar:</legend>
-                <label for="fecha">Fecha</label>
-                <input type="date" name="fecha" id="fecha"><br>
-                <br>
-                <label for="nombre">Nombre:</label>
-                <input type="text" name="nombre" id="nombre" size="65"><br>
-                <label for="apellido">Apellido</label>
-                <input type="text" name="apellido" id="apellido" size="65">
-                <p>Género (Radio)
-                    <input type="radio" name="genero" value="mujer" checked>Mujer
-                    <input type="radio" name="genero" value="varon">Varón
-                    <input type="radio" name="genero" value="no_binarior">No binario
-                </p>
-                <strong>Domicilio</strong><br>
-                <label for="calle">Calle</label>
-                <input type="text" name="calle" id="calle" size="50" required>
-                <label for="numero">Número</label>
-                <input type="number" name="numero" id="numero" required><br>
-                <label for="localidad">Localidad</label>
-                <input type="text" name="localidad" id="localidad" placeholder="Florencio Varela">
-                <label for="cod_postal">Código Postal</label>
-                <input type="number" name="cod_postal" id="cod_postal" placeholder="1888" size="4"><br>
-                <label for="mail">Mail</label>
-                <input type="email" name="mail" id="mail" placeholder="....@..com.ar" required>
-                <label for="num_contacto">Número de Contacto</label>
-                <input type="tel" name="num_contacto" id="num_contacto" required><br>
-                <br>
-                <br>
-                <input type="submit" value="Enviar"> <!-- envia al action -->
-                <button type="reset">Reset</button>
-            </fieldset>
-        </form>    
     
         
 
@@ -198,7 +160,7 @@
         <br><br>
         
         <a href="../index.html#inicio">
-            <img src="/media/volver_pagina.jpg" alt="volver" width="50" >
+            <img src="/media/volver.png" alt="volver" width="50" >
         </a>
 
     </footer>

@@ -5,211 +5,315 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PUPY Pañalera, y más...</title>
-    <link rel="stylesheet" href="estilos.css">
-    
-    
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="shortcut icon" href="media/pupylogo_ico.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+       
     
 </head>
 <body>
-    <header id="inicio">
-
-         <h1 style="color: rgb(216, 50, 106); background-color: rgb(201, 207, 185);">Pupy Pañalera, y algo más...</h1>
-        <img src="media/pupylogo.jpg" >
-        <a href="../Pupy/media/contacto.html">Quiero registrarme</a>
-        <br>
-        <br>
-        <a href="mailto:profe_castro@HOTMAIL.COM">mail a PROFE_CASTRO</a>
-        <a href="mailto:pupypanalera@gmail.com">Mail: pupypanalera@gmail.com</a>
-        <br>
-        <img src="../Pupy/media/whatsapp.png" width="25" height="25">
-        <a href="https:api.WhatsApp.com/send?phone=+5491124098044">WhatsApp: 11 2409 8044</a>
-        <br>
-        <p>Instagram: pupy.paniales</p>
-        <br>
-        <a href="../Pupy/media/contacto.html">"Dejanos un mensaje!!"</a>
+    <header id="inicio" >
         
-        <br>
-        <br>
-        
-        <nav>
-            <p>nav**********************************************************************************</p>
-            <a href="#we">Nosotros</a>
-            <a href="#services">Servicios</a>
-            <a href="#offers">Ofertas</a>
-            <a href="#products">Productos</a>
-            <a href="#piepagina">Mapa del Sitio</a>
+        <table border="1">
+            <tr>
+                <td>
+                    <img src="media/pupylogo.jpg" alt="logo de pupy header" width="100" title="Logo" > 
+                </td>  
+                <td>
+                <img src="https://buenosaires.gob.ar/sites/default/files/media/image/2022/05/05/bd71be9e02175306dcd51284ab5fe2b1dfa5e685.jpg" title="Compro en el Barrio" alt="Compro en el barrio" width="102"> 
+                </td>
+                <td>
+                    <td rowspan="4">
+                    <img class="redes_sociales"   src="/media/envio_el_mail.png" alt="mail" width="30"><br>
+                    <a href="mailto:pupypanalera@gmail.com?subject=Nuevo_Contacto">pupypanalera@gmail.com</a>
+                    </td>
+                    <td rowspan="4">
+                    <img src="./media/whatsapp.png" alt=" " width="30"><br>
+                    <a href="https://api.WhatsApp.com/send?phone=+5491124098044">11 2409 8044</a>
+                    </td>
+                    <td>
+                    <img src="/media/instagram.png" alt="logoinstagramm" width="30"><br>
+                    <a href="instagram.com/pupy.paniales">pupy.paniales</a>    
+                    </td>
+                    <td>
+                    <img src="/media/mensaje.png" alt="mensaje" width="30"><br>
+                    <a href="./media/contacto.html">"Dejanos un mensaje!!"</a>
+                    </td>
+                    <td>
+                    <img src="/media/flecha-hacia-abajo.png" alt="" width="30"><br>
+                    <a href="#piepagina">Mapa del Sitio</a>
+                    </td>
+                </tr>
+        </table>
+        <!-- formulario de ingreso de usuario  -->
+        <form action="./media/usuarios.html">
+                        
+            <label for="usr"></label>Usuarios registrados
+            <input type="text" name="usr" id="usr">
+            <label for="pass">Clave:</label>
+            <input type="password" name="pass" id="pass"> 
             
+            <button type="submit">Ingresar</button>
+            <button type="reset">Reset</button>
+
+            <a href="./media/contacto.html" target="_blank">*****   Quiero registrarme   *******</a>
+        </form>
+        <!--
+        <hr>
+        <hr>
+        *************************************   span agrupa horizontal
+        <span>
+        <img src="/media/envio_el_mail.png" alt="mail" width="30">
+        <a href="mailto:pupypanalera@gmail.com?subject=Nuevo_Contacto">pupypanalera@gmail.com</a>
+        </span>
+
+       <span>
+        <img src="./media/whatsapp.png" alt=" " width="30">
+        <a href="https://api.WhatsApp.com/send?phone=+5491124098044">WhatsApp: 11 2409 8044</a>
+       </span>
+
+        ***************************** div agrupa  vertical 
+        <div>
+        <img src="/media/instagram-icon.jpg" alt="logoinstagramm" width="30">
+        <a href="instagramm.com/pupy.paniales">pupy.paniales</a>    
+       </div>
+
+        <div>
+        <a href="./media/contacto.html">"Dejanos un mensaje!!"</a>
+        </div>
+
+        <div>
+        <a href="#piepagina">Mapa del Sitio<img src="/media/icono-abajo.webp" alt="" width="30"></a>
+        </div>
+
+        <hr>
+        -->
+        <br>
+        <nav>
+        <a class="menu" href="#we">Nosotros</a>
+        <a class="menu" href="#services">Servicios</a>
+        <a class="menu" href="#offers">Ofertas</a>
+        <a class="menu" href="#products">Productos</a>
+        <a class="menu" href="/media/pedidos.html">Pedidos</a>
+        <a class="menu" href="/media/comentarios.html">Comentarios</a>
+        <a class="menu" href="#piepagina">Mapa del Sitio</a>
+        <br>
+        <br>
+        <hr>
         </nav>
-        
+
+    
     </header>
-    <main>
-        <br>
-        <br>
-        <br>
-        <p>main***********************************************************************************</p>
-        <img src="../Pupy/media/nosotros2.jpg" alt="Raquelita en el mostrador" width="600" height="350">
-        <img src="../Pupy/media/nosotros3.jpg" alt="Frente del local" width="550" height="350">
+    
+    <Main>
+        <h1 style="color: rgb(216, 50, 106); background-color: rgb(201, 207, 185);">Pupy Pañalera, y algo más...</h1>
+        <img id="medio_ancho" src="./media/nosotros2.jpg" alt="Raquelita en el mostrador"  title="Raquelita">
+        <img id="medio_ancho" src="./media/nosotros3.jpg" alt="Frente del local" title="frente del local">
         
-        <ul type="square">
+        <ul type="square"> <!-- square para css -->
             <li>Su Titular: Vilma Anriques</li>
             <li>El frente de nuestro Local de ventas y Showroom</li>
         </ul>
    
         
-<p> ----- Secciones -----------------------------------------------------------------------------</p>
-    <h3 id="we">Nosotros</h3>
-    <p>la Pañalera Pupy nació de un proyecto muvho tiempo soñado, hasta que por suertes 
-        distintas de la vida se hizo realidad. desde ese día trabajamos fuertemente
-        buscando las mejores ofertas y competimos con precios razonables para el 
-        bien de la comunidad.</p>
+       
+        <h2 id="we">Nosotros</h2>
+        <p id="fondo_celeste">La "Pañalera Pupy" nació de un proyecto soñado por mucho tiempo, hasta que por suertes 
+           la vida la hizo realidad. Desde ese día trabajamos fuertemente buscando las mejores
+           ofertas, competimos con los precios más razonables.</p>
         <p>Siempre estaremos agradecidos a Usdteds, nuestros clientes...</p>
-    <p>Los comentarios de los clientes están disponibles en el boton "comentarios"</p>
-   <br>
-    <video width="520" height="450" controls>
-        <source src="../Pupy/media/ignaugura.mp4" type="video/mp4">
-    </video>
-    
-
-    <table class="">
-        <tr>
-            <th>Nuestro Local</th>
-        <tr>
-            <td>
-                <img src="../Pupy/media/nosotros4.jpg" alt="nosotros4" width="350" height="280">
-            </td>
-        </tr>
-        <tr>
-            <td>
-            <img src="../Pupy/media/nosotros6.jpg" alt="nosotros6" width="400" height="300">
-            </td>
-        </tr>
-        <tr>
-            <td>
-            <img src="../Pupy/media/nosotros8.jpg" alt="nosotros8" width="400" height="300">
-            </td>
-        </tr>
-        <tr>
-            <td>
-            <img src="../Pupy/media/nosotros10.jpg" alt="nosotros10" width="300" height="300">
-            </td>
-        </tr>
-    </table>
-    <a href="#inicio">Volver al inicio</a>
-
-
-<h3 id="services">Servicios</h3>
-<h4>Pupy Pañalera es la mejor opción dado que tiene la mejor relación Precio/Producto de la zone.
-    Nos especializamos en todo lo necesario para el bebé  y el niño. Juguetes artesanales de 
-    madera teniendo cuenta los que dan más oportunidades de aprender, de crecer y buscar la 
-    soluciones a problemas cognitivos, que a travez del juego se madura y reafirma la conectividad
-    de la red neuronal. Solicite el catálogo.
-    Pupy pañalera, puede si lo necesita, entregar a domicilio, basta con dejar sus datos personales 
-    la seccion</h4><a href="#registro">"Quiero Registrarme"</a><h4>, y cancelando el pago correspondiente
-    Pupy Pañalera, y más.
-</h4>
-
-
-<a href="#inicio">Volver al inicio</a>
-
-
-<br>
-<br>
-<h3 id="offers">Ofertas</h3>
-<img src="../Pupy/media/juguetes.jpg" alt="ofertajuguete" width="300" height="300">
-<img src="../Pupy/media/pañal.webp" alt="ofertapañal" width="300" height="300">
-
-
-    <h2 id="products">Nuestros Productos</h2>
-    <br>
-    <br>
-    <h3>Pañales</h3>
-        <img src="../Pupy/media/pañal2.webp"alt="pañal número 2" width="300" height="333">
-        <img src="../Pupy/media/pañal3.webp"alt="pañal número 3" width="300" height="333">
-        <img src="../Pupy/media/pañal4.webp"alt="pañal número 4" width="300" height="333">
-        <img src="../Pupy/media/pañal5.jpg" alt="pañal número 5" width="300" height="333">
-        <img src="../Pupy/media/pañal6.jpg" alt="pañal número 6" width="400" height="333">
-        <img src="../Pupy/media/pañal7.webp" alt="pañal número 7" width="400" height="333">
-        <img src="../Pupy/media/pañal7.webp" alt="pañal número 8" width="400" height="333">>
-    
-        <p>--------------------------------------------------------------------</p>
-
-    <h3>carritos</h3>
-        <img src="../Pupy/media/imagen_seccion_carritos.webp">
         <br>
-        <img src="../Pupy/media/carrito 1.jpg" alt="Carrito número 1" width="350" height="400">
-        <img src="../Pupy/media/carrito 2.jpg" alt="Carrito número 2" width="350" height="330">
-        <img src="../Pupy/media/carrito 3.jpg" alt="Carrito número 3" width="300" height="400">
-        <img src="../Pupy/media/carrito 4.jpg" alt="Carrito número 4" width="300" height="400">
-        <img src="../Pupy/media/carrito 5.jpg" alt="Carrito número 5" width="300" height="400">
-        <img src="../Pupy/media/carrito 6.jpg" alt="Carrito número 6" width="300" height="400">
-        <p>----------------------------------------------------------------------</p>
-
-    <br>
-    <br>
-    <h3>juguetes</h3>
-        <img src="../Pupy/media/juguete 1.jpg" alt="Juguete 1" width="200" height="300">
-        <img src="../Pupy/media/juguete 2.webp" alt="Juguete 2" width="200" height="300">
-        <img src="../Pupy/media/juguete 3.jpg" alt="Juguete 3" width="200" height="300">
-        <img src="../Pupy/media/juguete 4.jpg" alt="juguete 4" width="200" height="300">
-        <img src="../Pupy/media/juguete 5.webp" alt="Juguete 5  " width="200" height="300">
-        <p>-------------------------------------------------------------------------</p>
-
-    <br>
-    <br>
-    <h3>Perfumes y colonias</h3>
-        <img src="../Pupy/media/perfume1.webp" alt="Perfume 1" width="200" height="300">
-        <img src="../Pupy/media/perfume2.webp" alt="Perfume 2" width="200" height="300">
-        <img src="../Pupy/media/perfume3.webp" alt="Perfume 3" width="200" height="300">
-        <img src="../Pupy/media/perfume4.jpg" alt="Perfume 4" width="200" height="300">
-        <img src="../Pupy/media/perfume5.jpg" alt="Perfume 5" width="200" height="300">
-        <img src="../Pupy/media/perfume6.jpg" alt="Perfume 6" width="200" height="300">
-        <br>
-        <a href="#inicio">Volver al inicio</a>
-
-        <p>--------------------------------------------------------------------------</p>
+        <p class="ejemplo_1">Comentarios de clientes: disponibles en "comentarios"</p>
         
+        <video id="medio_ancho" controls>
+            <source src="./media/ignaugura.mp4" type="video/mp4">
+        </video>
+        <!-- video de yoututbe agregado con boton de la derecha codigo de inserción -->
+        <iframe src="https://www.youtube.com/embed/EopiO4MTgBQ" title="no sale: Ejemplo de insertar un video de youtube" frameborder="4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen >
+        </iframe>
+        <!-- inserto un mp3-->
+        <audio controls>
+            <source src="./media/Musica_De_Fondo_.mp3" type="audio/mpeg">
+        </audio>
+        <br>
 
-
-    </main>
-
-
-    <footer id="piepagina">
-        <p>footer***********************************************************************************************</p>
-        <h2>Este es el título del pie de página o footer</h2>
-        <p>Este es el footer </p>
+        <!--  tabla  -->
+        <table border="3">
+        <tr>
+            <th colspan="5"> <!-- combina las n celdas de la fila  , el título en negrita  -->
+                Datos de Vendedores
+            </th>
+        </tr>
+        <tr>
+            <th>Nº</th>
+            <th>D.N.I. Nº</th>
+            <th>Local</th>
+            <th>Apellido</th>
+            <th>Nombre</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>19.653.503</td>
+            <td rowspan="4">Centro</td>  <!--   combina las n celdas de la coumna -->
+            <td>Pérez</td>
+            <td>Ernesto</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>31.967.503</td>
+            
+            <td>López</td>
+            <td>Ana María</td>
+        </tr>
+        <tr>
+            <td>003</td>
+            <td>32.953.573</td>
+            
+            <td>Ramirez</td>
+            <td>Marina</td>
+        </tr>
+        <tr>
+            <td>004</td>
+            <td>21.577.931</td>
+            
+            <td>Anriques</td>
+            <td>Raquel</td>
+        </tr>
+        </table>
+    
+    
         <table border="2">
-            <tr>    
-             <td rowspan="3">Zona Sur</td>
-             <td>Avellaneda</td>
-             <td>Lanús</td>
+        <tr>
+            <th colspan="2">Nuestro Local</th>
+        <tr>
+            <td>
+            <img  src="./media/nosotros4.jpg" alt="nosotros4" width="300">
+            </td>
+            <td>
+            <img  src="./media/nosotros6.jpg" alt="nosotros6" width="300">
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <img  src="./media/nosotros8.jpg" alt="nosotros8" width="300">
+            </td>
+            <td>
+            <img  src="./media/nosotros10.jpg" alt="nosotros10" width="200">
+            </td>
+        </tr>
+        </table>
+        <a href="#inicio"><img src="/media/boton-subir.png" alt="subir" width="100"></a>
+
+        <!--  Servicios  ***************************************   -->
+        <h2 id="services">Servicios</h2>
+        <p>Pupy Pañalera es la mejor opción dado que tiene la mejor relación Precio/Producto de la zone.
+        Nos especializamos en todo lo necesario para el bebé  y el niño. Juguetes artesanales de 
+        madera teniendo cuenta los que dan más oportunidades de aprender, de crecer y buscar la 
+        soluciones a problemas cognitivos, que a travez del juego se madura y reafirma la conectividad
+        de la red neuronal. Solicite el catálogo.</p>
+        <p > pañalera, puede si lo necesita, entregar a domicilio, basta con dejar sus datos personales 
+        la seccion "Quiero Registrarme", y cancelando el pago correspondiente
+        Pupy Pañalera, y más.
+        </p>
+        <a href="./media/contacto.html">"Registrame"</a>
+        <br>
+        <br>
+        <h2 id="offers">Ofertas</h2>
+        <img src="./media/juguetes.jpg" alt="ofertajuguete" width="300">
+        <img src="./media/pañal.webp" alt="ofertapañal" width="200">
+        <img src="/media/juguete 1.jpg" alt="ofertajuguete" width="300">
+        <br><br>
+
+
+        <h2 id="products">Nuestros Productos</h2>
+
+        <div>
+        <h3>Pañales</h3>
+            <img src="./media/pañal2.webp" alt="pañal número 2" width="300" >
+            <img src="./media/pañal3.webp" alt="pañal número 3" width="300" >
+            <img src="./media/pañal4.webp" alt="pañal número 4" width="300" >
+            
+          
+            
+        <h3>carritos</h3>
+            <img src="../media/imagen_seccion_carritos.webp" alt="img sección carrito">
+            <img src="./media/carrito 1.jpg" alt="Carrito número 1" width="350">
+            <img src="./media/carrito 2.jpg" alt="Carrito número 2" width="350">
+            
+          
+          
+
+        <br>
+        <br>
+        <h3>juguetes</h3>
+            <img src="./media/juguete 2.webp" alt="Juguete 2" width="200">
+            <img src="./media/juguete 3.jpg" alt="Juguete 3" width="200">
+            <img src="./media/juguete 4.jpg" alt="juguete 4" width="200">
+           
+
+        <br>
+        <br>
+        <h3>Perfumes y colonias</h3>
+            <img  src="./media/perfume1.webp" alt="Perfume 1" width="200">
+            <img  src="./media/perfume2.webp" alt="Perfume 2" width="200">
+            <img  src="./media/perfume3.webp" alt="Perfume 3" width="200">
+           
+        
+        </div>
+      
+        <hr>
+    
+        
+        <h2>Juguetes de Madera  -  Artículos relacionados</h2>
+        <table border="4">
+            <td>
+            <tr>
+            <a class="linkea" href="https://www.mibebemarket.com/blogs/news/43893507-5-beneficios-de-jugar-con-bloques-de-madera">mibebemarket.com</a>
             </tr>
             <tr>
-                 <td colspan="2">Banfield</td>
+            <a class="linkea" href="https://www.kamchatkatoys.com/blog/juguetes-madera-aprendizaje-bebe">kamchatkatoys.com</a>
             </tr>
             <tr>
-              <td>Quilmes</td>
-                 <td>Berasategui</td>
-            </tr>
-            <tr>
-                 <td rowspan="2">Zona Oeste</td>
-                 <td>Morón</td>
-                 <td>Merlo</td>
-            </tr>
-            <tr>
-                 <td>Moreno</td>
-                 <td>Haedo</td>
+            <a class="linkea" href="https://blog-es.kinedu.com/beneficios-de-los-juguetes-de-madera">blog-es.kinedu.com</a>
             </tr>
         </table>
-
-        <a href="https://goo.gl/maps/rCfzxE5EXbAtt9Yz5">Cómo llegar? Google Maps nos lleva a la Ubicación</a><br>
-        <a href="../Pupy/media/Pupy Alta para registro PDF.pdf">PDF para Registro</a><br>
-        <a href="../Pupy/media/Pupy Alta para registro PDF.pdf" download="">Descargar pdf</a><br>
-        <a href="../Pupy/media/Pupy Lista Precios.docx">Descargar la lista de precios actualizada(Word)</a><br>
-        <a href="media/Lista Pupy.xlsx">Descargar el excel de los precios(xls)</a><br>
-        <a href="../Pupy/media/codigos.txt">Ver Códigos de Productos en el mismo navegador</a><br>
-        <a href="../Pupy/media/contacto.html">Contactanos</a>
+    </main>
+    <footer id="piepagina">
+        <hr>
         <br>
-        <a href="#inicio">Volver al inicio</a>
+        <table>
+            <tr>
+            <td>    
+                <p>Cómo llegar? Google Maps nos lleva a la Ubicación</p><br>
+                <iframe id="todo_el_ancho" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52419.49854469434!2d-58.318130674879725!3d-34.800440321032184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32beafbd33505%3A0xccbf051dab23bd9d!2sPupy%20pa%C3%B1ales%20y%20algo%20mas!5e0!3m2!1ses-419!2sar!4v1679718013733!5m2!1ses-419!2sar"  style="border:1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </td>  
+            <td>
+                <br>
+                <a href="./media/Pupy Alta para registro PDF.pdf">PDF para Registro</a><br>
+                <a href="./media/Pupy Alta para registro PDF.pdf" download="">Descargar pdf</a><br><br>
+                <a href="./media/Pupy Lista Precios.docx">Descargar la lista de precios actualizada(Word)</a><br><br>
+                <a href="./media/Lista Pupy.xlsx">Descargar el excel de los precios(xls)</a><br><br>
+                <a href="./media/codigos.txt">Ver Códigos de Productos en el mismo navegador</a><br><br>
+                <a href="./media/contacto.html">Contacto y mensajes</a>
+                <br>
+            </td>
+            <td>
+               <a href="#inicio"><img src="/media/boton-subir.png" alt="subir" width="100"></a> 
+            </td>
+            <td>
+                <img src="/media/pupylogo.jpg" alt="logo" >
+            </td>
+            </tr>    
+        </table>
+
+    
+        <p>Derechos Reservados - Copyright Miguel Castro 2023</p>
+    
     </footer>
 
 </body>

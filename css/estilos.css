@@ -1,19 +1,146 @@
+header {
+    background-color: rgb(173, 172, 235);
+    background-image: url();
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:  %;
+    font-family: 'Alkatra', cursive;
+}
+
+
 
 body{
-    color: rgb(139, 139, 100);
-}
-
-p{
-    color: antiquewhite;
-}
-
-h6 {
-    text-align: center;
-    color: blueviolet;
-    background-color: rgb(206, 183, 228) ;
+    background-color: rgb(194, 196, 183);
     
+        
 }
 
-footer{
-    color-scheme: blue;
+
+
+.menu{
+    background-color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-stretch: expanded;
+    padding: 15px;
+    border: 3px solid red;
+    margin: 15px;
+    border-top-color: blueviolet;
+    border-top: 1px;
+    border-bottom-color: rgb(167, 141, 141);
+    border-bottom-color: rgb(167, 141, 141);
+    border-radius: 10%;
+    background-color: rgb(207, 196, 196);
+
+}
+    
+
+#todo_el_ancho {
+    width: 80%;
+    height: %;
+}
+
+
+#medio_ancho {
+    width: 40%;
+    padding: 10px;
+}
+
+
+
+#cuarto_ancho {
+    width: 20%;
+    height: %;
+}
+
+
+
+
+h2{
+    color: aquamarine;
+    background-color: rgb(110, 110, 128);
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+h3 {
+    font-family: Calibri;
+    font-style: oblique;
+    color: brown;
+    background-color: rgb(154, 154, 199);
+    text-align: left;
+    padding: 20px;
+}
+
+
+
+p {
+    color: rgb(76, 117, 129);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: large;
+}
+
+
+
+#fondo_celeste {       /* a todos los id:"" */
+    background-color: aquamarine;
+}
+
+
+.ejemplo_1 {           /* . es a todas las etiquetas class */
+    background-color: brown;
+    font-size: small;
+    color: aliceblue;
+}
+
+
+table{
+    text-align: center;
+    size: 100px;
+    border: 0cqmax;
+}
+
+
+.sidebar {
+  background-color: rgb(160, 143, 197);
+  padding: px;
+  width: 250px;
+  float:right;
+  position:;
+  
+}
+
+
+
+
+
+footer {
+    background-color: rgb(173, 172, 235);
+}
+
+.redes_sociales{
+    width: 30;
+}
+
+.linkea{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-stretch: expanded;
+    padding: 15px;
+    border: 9px solid red;
+    margin: 55px;
+    border-top-color: blueviolet;
+    border-top: 20px;
+    border-bottom-color: rgb(167, 141, 141);
+    border-radius: 10%;
+    background-color: rgb(187, 160, 160);
+    
+
 }
